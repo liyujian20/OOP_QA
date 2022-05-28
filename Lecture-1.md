@@ -347,7 +347,6 @@ Explanation: Using the shell command `find`, we can automaticlly detect all sour
 
 - ".RECIPEPREFIX = >" can change all the tab into '>'.
 
-
 既然这个假设成立，那么我们就也应该期望，一段人工合成的与上述序列相同的肽段也可以同样竞争性抑制caspase-9和BIR3的结合。实验结果如图c所示。横坐标的三角代表浓度逐渐升高的无关非特性肽段，合成的smac-N5，p12-N5 和linker region。纵坐标是 DEVD-AMC被切割的比例,可以代表caspase-9的活性，因为Caspase-9可以催化caspase-3从酶原向有活性的酶转化，而caspase-3可以催化 DEVD-AMC的切割。从图中可以看到，合成的smac-N5，p12-N5 和linker region这三个带有目标序列的肽段都可以激活caspase-9的活性。验证了我们的假设。
 
 下面我们来看这个结合位点附近的结构和相互作用。通过结构解析可以看到，我们上面所说的目标肽段的N端插入了BIR3表面的一个凹槽，像通常的结合那样由氢键和范德华力维持稳定。第一个氨基酸，也就是Ala嵌入了一个疏水的位点，这个位点与trp310有关。同时ala的主链与其他周围的氨基酸相互作用，包括Glu314，因此trp310和glu314与这个结合关系密切，实验也证明，如果突变调这两个位点二者之一，BIR3和samc和caspase-9的结合都会显著下降。由于caspase-9和smac有相同的N端序列，这也就意味着他们有相同的结合方式。由于N端的Ala需要插入凹槽，而且需要它的侧链充分暴露与BIR3的集团相互作用，所以只有剪切过后的p12，暴露出Ala之后才能与XIAP相互作用。
